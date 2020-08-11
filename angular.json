@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-smash-app"
+    }
+  },
+  "defaultProject": "angular-smash-app",
+  "cli": {
+    "analytics": "a503b875-51b3-4250-abb2-0ae598cdcee2"
+  }
 }

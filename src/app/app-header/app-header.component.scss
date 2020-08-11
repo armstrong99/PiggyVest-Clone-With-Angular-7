@@ -1,0 +1,42 @@
+@import '../../styles.scss';
+
+.img-logo {
+    vertical-align: baseline;
+    max-height: 60px;
+    display: inline-block;
+    padding-bottom: 0;
+    max-width: 180px;
+  }
+
+ nav {
+     position: fixed;
+     width: 100vw;
+     .container-list {
+        display: flex;
+        margin: 0;
+        width: 100%;
+        background-color: white;
+        height: 4rem;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 5rem;
+ 
+            ul {
+                width: 40rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                a {
+                    color: $menu-link;
+                    font-weight: 600;
+                    font-size: small;
+
+                    &:hover {
+                        color: #30c57b;
+                    }
+                }
+                
+            }
+     }
+ }
+
